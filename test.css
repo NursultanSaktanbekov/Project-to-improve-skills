@@ -1,0 +1,359 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0; 
+}
+
+body {
+    font-family: Lato, sans-serif;
+    color: #4F4F4F;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 144%;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1440px;
+    min-width: ;
+    max-width: 1116px;
+    min-width: 418px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.top-wrap {
+    margin-top: 63px;
+}
+
+.logo {
+    color: #5282F0;
+    font-family: Product Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.48px;
+}
+.logo-icon {
+    width: 25px;
+    height: 25px;
+}
+.first-block-wrap {
+    margin-top: 226px;
+}
+
+.main-title {
+    color: #333;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 132%;
+    letter-spacing: 1.08px;
+    
+}
+
+.description {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.links {
+    display: flex;
+    margin-top: 30px;
+}
+
+.google-play {
+    margin-left: 35.9px;
+}
+.logos {
+    width: 156.051px;
+    height: 47px;
+}
+
+.first-block {
+    display: flex;
+    align-items: center;
+}
+
+.middle-section {
+    background: url(./images/ronaldo-with-gradient.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100%;
+}
+
+.middle-wrap {
+    display: flex;
+    align-items: center;
+}
+.photo {
+    margin: 100px 168px 77px 0;
+}
+
+.small-title {
+    color:#00ADEE;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 132%;
+}
+
+.title {
+    margin-top: 27px;
+    color: #333;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 132%;
+}
+
+.description_middle {
+    margin-top: 27px;
+}
+
+.link_wrap {
+    margin-top: 22px;
+}
+
+.learn_btn {
+    color: #00ADEE;
+font-family: Lato;
+font-size: 16px;
+font-weight: 700;
+line-height: 132%;
+}
+
+.bg {
+    background: #FFF;
+}
+
+.mid-block {
+    display: flex;
+    align-items: center;
+}
+
+.img_wrap {
+    margin: 54px 0 62px 0;
+}
+.text-wrap {
+    margin-top: 15px;
+}
+
+.brand-colour {
+    background-color: #00ADEE;
+}
+
+.white {
+    color: #FFF;
+    text-align: center;
+}
+
+.net-wrap {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 66px;
+}
+.icon-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon_wrapper {
+    margin-top: 105px;
+}
+
+.icons_wrap {
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 11px;
+}
+.center-wrap {
+    color: #FFFFFF;
+}
+
+.tv {
+    background: url(./images/icontv.svg);
+    text-align: center;
+}
+
+.flag {
+    background: url(./images/iconFlag.svg);
+}
+
+.phone-right {
+    background: url(./images/iconturn-right-phone.svg);
+}
+.notification {
+    background: url(./images/iconnotifications.svg);
+}
+
+.multiples-phone {
+    background: url(./images/icon-multiple-phones.svg);
+}
+
+.two-person {
+    background: url(./images/icon-two-mans.svg);
+}
+.hd {
+    background: url(./images/iconHD.svg);
+}
+
+.poll {
+    background: url(./images/icon-Poll.svg);
+}
+.tune {
+    background: url(./images/icon-tune.svg);
+}
+
+.brands {
+    background: #FAFAFA;
+}
+
+.center {
+    text-align: center;
+    margin-top: 57px;
+}
+
+.brand-wrap {
+    margin-top: 71px;
+}
+
+.brand-wrap {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 81px;
+}
+.tv_wrap {
+    display: flex;
+    align-items: center;
+}
+.sports {
+    display: block;
+    background: url(./images/icon-sport.svg);
+    width: 102px;
+    height: 32px;
+}
+
+.tv-chanel {
+    color: #000;
+    font-family: Product Sans;
+    font-size: 36px;
+    font-style: italic;
+    line-height: 0%; 
+}
+
+.nbc {
+    display: block;
+    background: url(./images/icon-nbc.svg);
+    width: 69px;
+    height: 58px;
+}
+
+.designer {
+    display: block;
+    background: url(./images/icon-designer.svg);
+    width: 110px;
+    height: 32px;
+}
+
+.dn {
+    display: block;
+    background: url(./images/icon-DN.svg);
+    width: 48px;
+    height: 48px;
+}
+
+.skysports {
+    display: block;
+    background: url(./images/sky-sports-1.svg);
+    width: 210px;
+    height: 34px;
+}
+
+.last-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer {
+    background: #00ADEE;
+}
+
+.white-1 {
+    color: #FFFFFF;
+}
+
+.buttom__wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linkss_wrap {
+    padding: 10px;
+}
+
+.nav_wrap_wrap {
+    display: flex;
+    justify-content: space-around;
+}
+
+.icon-nav {
+    display: block;
+    width: 25px;
+    height: 25px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.social_media {
+    display: flex;
+    padding: 10px;
+}
+.twitter {
+    background: url(./images/twitter.png);
+}
+
+.facebook {
+    background: url(./images/facebook.svg);
+}
+
+.instagram {
+    background: url(./images/instagram\ 2.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* font-family: Lato, sans-serif;
+color: #4F4F4F;
+font-family: Lato;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 144%; */
+
